@@ -5,38 +5,39 @@
 
 /* ---------------global defaults---------------- */
 
-*{ 
+* {
   box-sizing: border-box;
-} 
+}
 
 body {
-background-color: bisque;
-color: bisque;
-font-size: 20px;
-  
-font-family: 'Roboto', sans-serif;
+  background-color: bisque;
+  color: bisque;
+  font-size: 20px;
 
-line-height:1.4; 
-} 
+  font-family: 'Roboto', sans-serif;
+
+  line-height: 1.4;
+}
 
 img,
 iframe,
-video {max-width: 100%;}
+video {
+  max-width: 100%;
+}
 
-a:link{
-    color: bisque;
+a:link {
+  color: bisque;
 }
 
 a:visited {
-    color: orange;
+  color: orange;
 }
 
 a:hover {
-  text-decoration: none;}
-
-* {
-    box-sizing: border-box;
+  text-decoration: none;
 }
+
+
 
 html {
   font-size: 10px;
@@ -48,7 +49,7 @@ p {
   font-size: 15px;
   color: bisque;
   font-family: 'Roboto', sans-serif;
-  
+
 }
 
 h1 {
@@ -60,27 +61,34 @@ h1,
 h2,
 h3,
 h4,
-h5 {font-family: 'Abril Fatface', cursive;
-    font-weight: normal; 
-    color: coral;}
-
-h1 { font-size: 60px
+h5 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+  color: coral;
 }
 
-h2 { font-size: 40px
+h1 {
+  font-size: 60px
 }
 
-h3 { font-size: 30px
+h2 {
+  font-size: 40px
 }
 
-h4 { font-size: 20px
+h3 {
+  font-size: 30px
 }
 
-h5 { font-size: 20px
+h4 {
+  font-size: 20px
+}
+
+h5 {
+  font-size: 20px
 }
 
 
-h1 + p {
+h1+p {
   font-weight: normal;
 }
 
@@ -94,9 +102,9 @@ h1 {
 
 /*---------------Layouts---------------*/
 
-.layout-wide { 
-  background-color:midnightblue;
- 
+.layout-wide {
+  background-color: midnightblue;
+
   max-width: 800px;
   padding-left: 5%;
   padding-right: 5%;
@@ -105,6 +113,7 @@ h1 {
 
 
 }
+
 /*---------------HEADER---------------*/
 
 header {
